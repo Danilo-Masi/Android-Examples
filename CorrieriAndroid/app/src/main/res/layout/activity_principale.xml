@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/containerVistaPrincipale"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment android:name="it.unibas.corrieri.vista.VistaPrincipale"
+              android:id="@+id/vistaPrincipale"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prova" />
+
+
+</FrameLayout>
