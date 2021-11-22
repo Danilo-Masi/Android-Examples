@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calcolo ISEE</string>
+    <string name="reddito">Reddito</string>
+    <string name="inserisci_il_reddito_del_nucleo_familiare_in_euro">Inserisci il reddito del nucleo familiare (in euro)</string>
+    <string name="patrimonio">Patrimonio</string>
+    <string name="inserisci_il_patrimonio_in_euro">Inserisci il patrimonio (in euro)</string>
+    <string name="inserisci_il_numero_di_componenti_del_nucleo_familiare">Inserisci il numero di componenti del nucleo familiare</string>
+    <string name="calcola_isee">Calcola isee</string>
+    <string name="presenza_di_minori">Presenza di minori</string>
+    <string name="numero_di_componenti">Numero di componenti</string>
+</resources>
