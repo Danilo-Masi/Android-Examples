@@ -9,7 +9,7 @@ import java.util.GregorianCalendar;
 public class OperatorePacchi {
 
     // Proprietà di tipo String che prende il nome della classe
-    // Serve per il log
+    // Serve per il logging
     private static final String TAG = OperatorePacchi.class.getSimpleName();
 
     public  Pacco cercaReso(Pacco pacco) {

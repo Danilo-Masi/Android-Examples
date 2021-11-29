@@ -1,0 +1,4 @@
+#Mon Nov 29 18:48:16 CET 2021
+base.0=C\:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CalcoloISEEAndroid\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

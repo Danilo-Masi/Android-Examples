@@ -2,18 +2,27 @@ package it.unibas.isee.controllo;
 
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
 
 import it.unibas.isee.Applicazione;
+import it.unibas.isee.Costanti;
 import it.unibas.isee.activity.ActivityPrincipale;
 import it.unibas.isee.modello.ModuloISEE;
+import it.unibas.isee.modello.StoriaCalcoli;
 import it.unibas.isee.vista.VistaPrincipale;
 
 public class ControlloPrincipale {
 
     private View.OnClickListener azioneCalcola = new AzioneCalcola();
+    private ListView.OnItemClickListener azioneSelezioneStoria = new AzioneSelezioneStoria(); //In alternativa anche AdapterView
 
     public View.OnClickListener getAzioneCalcola(){
         return this.azioneCalcola;
+    }
+
+    public ListView.OnItemClickListener getAzioneSelezioneStoria() {
+        return azioneSelezioneStoria;
     }
 
     private class AzioneCalcola implements View.OnClickListener {
@@ -40,6 +49,12 @@ public class ControlloPrincipale {
             String messaggio = "Il valore dell'ISEE e' " + moduloISEE.getStringaValoreISEE();
             Log.d(TAG, messaggio);
             activityPrincipale.mostraMessaggio(messaggio);
+            vistaPrincipale.ripulisciCampi();
+            //StoriaCalcoli storiaCalcoli = (StoriaCalcoli) Applicazione.getInstance().getModello().getBean(Costanti.STORIA_CALCOLI);
+            StoriaCalcoli storiaCalcoli = (StoriaCalcoli) Applicazione.getInstance().getModelloPersistente().getPersistentBean(Costanti.STORIA_CALCOLI, StoriaCalcoli.class);
+            storiaCalcoli.aggiungiCalcolo(moduloISEE);
+            Applicazione.getInstance().getModelloPersistente().saveBean(Costanti.STORIA_CALCOLI, storiaCalcoli);
+            vistaPrincipale.aggiornaDati();
         }
 
         private boolean convalida(String campoReddito, String campoPatrimonio, String campoNumeroComponenti, boolean presenzaMinori, VistaPrincipale vistaPrincipale){
@@ -75,6 +90,19 @@ public class ControlloPrincipale {
                 }
             }
             return errori;
+        }
+    }
+
+    private class AzioneSelezioneStoria implements ListView.OnItemClickListener{
+
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            //StoriaCalcoli storiaCalcoli = (StoriaCalcoli) Applicazione.getInstance().getModello().getBean(Costanti.STORIA_CALCOLI);
+            StoriaCalcoli storiaCalcoli = (StoriaCalcoli) Applicazione.getInstance().getModelloPersistente().getPersistentBean(Costanti.STORIA_CALCOLI, StoriaCalcoli.class);
+            ModuloISEE moduloISEE = storiaCalcoli.getStoria().get(position);
+            ActivityPrincipale activityPrincipale = (ActivityPrincipale) Applicazione.getInstance().getCurrentActivity();
+            VistaPrincipale vistaPrincipale = activityPrincipale.getVistaPrincipale();
+            vistaPrincipale.inizializzaCampi(moduloISEE);
         }
     }
 

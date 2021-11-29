@@ -5,8 +5,10 @@ import android.app.Application;
 import android.os.Bundle;
 import android.util.Log;
 
+import it.unibas.corrieri.controllo.ControlloPrincipale;
 import it.unibas.corrieri.modello.Modello;
 import it.unibas.corrieri.modello.ModelloPersistente;
+import it.unibas.corrieri.persistenza.ServerMock;
 
 public class Applicazione extends Application {
 
@@ -18,6 +20,8 @@ public class Applicazione extends Application {
         return singleton;
     }
 
+    //Metodo che gestisce il ciclo di vita dell'applicazione
+    //Equivalente ad inizializza di Swing
     public void onCreate() {
         super.onCreate();
         Log.d(TAG, "Applicazione creata...");
@@ -31,6 +35,12 @@ public class Applicazione extends Application {
 
     private Modello modello = new Modello();
     private ModelloPersistente modelloPersistente = new ModelloPersistente();
+    private ServerMock serverMock = new ServerMock();
+    private ControlloPrincipale controlloPrincipale = new ControlloPrincipale();
+
+    public ControlloPrincipale getControlloPrincipale() {
+        return controlloPrincipale;
+    }
 
     public Activity getCurrentActivity() {
         return this.currentActivity;
@@ -42,6 +52,10 @@ public class Applicazione extends Application {
 
     public ModelloPersistente getModelloPersistente() {
         return modelloPersistente;
+    }
+
+    public ServerMock getServerMock() {
+        return serverMock;
     }
 
     //////////////////////////////////////////////

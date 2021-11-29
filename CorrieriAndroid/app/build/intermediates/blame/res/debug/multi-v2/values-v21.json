@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Progetti università\\CorrieriAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CorrieriAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Progetti università\\CorrieriAndroid\\app\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "3,13,18",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "59,581,768",
-                        "endLines": "10,15,21",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "545,721,1008"
-                    },
-                    "to": {
-                        "startLines": "6,233,274",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "354,17397,19889",
-                        "endLines": "13,235,277",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "833,17535,20126"
-                    }
-                },
                 {
                     "source": "C:\\Users\\danil\\.gradle\\caches\\transforms-2\\files-2.1\\4bcf2eceb08199f7c727c07aab682f4b\\material-1.0.0\\res\\values-v21\\values-v21.xml",
                     "from": {
@@ -39,6 +20,25 @@
                         "endLines": "289,297,305,313",
                         "endColumns": "10,10,10,10",
                         "endOffsets": "21051,21477,21900,22335"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CorrieriAndroid\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "3,13,18",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "59,581,768",
+                        "endLines": "10,15,21",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "545,721,1008"
+                    },
+                    "to": {
+                        "startLines": "6,233,274",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "354,17397,19889",
+                        "endLines": "13,235,277",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "833,17535,20126"
                     }
                 },
                 {

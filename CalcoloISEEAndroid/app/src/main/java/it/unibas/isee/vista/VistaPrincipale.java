@@ -6,12 +6,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Switch;
 
 import androidx.fragment.app.Fragment;
 
 import it.unibas.isee.Applicazione;
+import it.unibas.isee.Costanti;
 import it.unibas.isee.R;
+import it.unibas.isee.modello.ModuloISEE;
+import it.unibas.isee.modello.StoriaCalcoli;
 
 public class VistaPrincipale extends Fragment {
 
@@ -20,6 +24,7 @@ public class VistaPrincipale extends Fragment {
     private EditText campoNumeroComponenti;
     private Switch switchMinori;
     private Button bottoneCalcola;
+    private ListView listaStoriaCalcoli;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -30,7 +35,18 @@ public class VistaPrincipale extends Fragment {
         this.switchMinori = vista.findViewById(R.id.switchMinori);
         this.bottoneCalcola = vista.findViewById(R.id.bottoneCalcola);
         this.bottoneCalcola.setOnClickListener(Applicazione.getInstance().getControlloPrincipale().getAzioneCalcola());
+        this.listaStoriaCalcoli = vista.findViewById(R.id.listaStoriaCalcoli);
+        //StoriaCalcoli storiaCalcoli = (StoriaCalcoli) Applicazione.getInstance().getModello().getBean(Costanti.STORIA_CALCOLI);
+        StoriaCalcoli storiaCalcoli = (StoriaCalcoli) Applicazione.getInstance().getModelloPersistente().getPersistentBean(Costanti.STORIA_CALCOLI, StoriaCalcoli.class);
+        AdapterStoriaCalcoli adapterStoriaCalcoli = new AdapterStoriaCalcoli(storiaCalcoli.getStoria());
+        listaStoriaCalcoli.setAdapter(adapterStoriaCalcoli);
+        listaStoriaCalcoli.setOnItemClickListener(Applicazione.getInstance().getControlloPrincipale().getAzioneSelezioneStoria());
         return vista;
+    }
+
+    public void aggiornaDati(){
+        AdapterStoriaCalcoli adapterStoriaCalcoli = (AdapterStoriaCalcoli) listaStoriaCalcoli.getAdapter();
+        adapterStoriaCalcoli.aggiornaContenuto();
     }
 
     public String getCampoReddito(){
@@ -61,4 +77,17 @@ public class VistaPrincipale extends Fragment {
         this.campoNumeroComponenti.setError(messaggio);
     }
 
+    public void inizializzaCampi(ModuloISEE moduloISEE) {
+        this.campoReddito.setText(moduloISEE.getReddito() + "");
+        this.campoPatrimonio.setText(moduloISEE.getPatrimonio() + "");
+        this.campoNumeroComponenti.setText(moduloISEE.getNumeroComponenti() + "");
+        this.switchMinori.setChecked(moduloISEE.isPresenzaMinori());
+    }
+
+    public void ripulisciCampi() {
+        this.campoReddito.setText("");
+        this.campoPatrimonio.setText("");
+        this.campoNumeroComponenti.setText("");
+        this.switchMinori.setChecked(false);
+    }
 }

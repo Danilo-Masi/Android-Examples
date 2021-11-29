@@ -8,6 +8,7 @@ import android.util.Log;
 import it.unibas.isee.controllo.ControlloPrincipale;
 import it.unibas.isee.modello.Modello;
 import it.unibas.isee.modello.ModelloPersistente;
+import it.unibas.isee.modello.StoriaCalcoli;
 
 public class Applicazione extends Application {
 
@@ -24,6 +25,12 @@ public class Applicazione extends Application {
         Log.d(TAG, "Applicazione creata...");
         singleton = (Applicazione) getApplicationContext();
         singleton.registerActivityLifecycleCallbacks(new GestoreAttivita());
+        //modello.putBean(Costanti.STORIA_CALCOLI, new StoriaCalcoli());
+        StoriaCalcoli storiaCalcoli = (StoriaCalcoli) modelloPersistente.getPersistentBean(Costanti.STORIA_CALCOLI, StoriaCalcoli.class);
+        if(storiaCalcoli == null) {
+            Log.d(TAG, "Primo avvio dell'applicazione. Inizializzo la storia...");
+            modelloPersistente.saveBean(Costanti.STORIA_CALCOLI, new StoriaCalcoli());
+        }
     }
 
     /////////////////////////////////////////////

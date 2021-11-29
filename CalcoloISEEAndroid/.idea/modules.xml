@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Calcolo ISEE - Android.iml" filepath="$PROJECT_DIR$/Calcolo ISEE - Android.iml" group="Calcolo ISEE - Android" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Calcolo ISEE - Android/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CalcoloISEEAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/CalcoloISEEAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CalcoloISEEAndroid.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CalcoloISEEAndroid.app.iml" />
     </modules>
   </component>
 </project>

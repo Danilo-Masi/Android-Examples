@@ -1002,8 +1002,12 @@ id auto
 id beginning
 id blocking
 id bottom
-id button
+id bottoneRicerca
 id buttonPanel
+id campoNome
+id campoNumero
+id campoZona
+id campoZonaC
 id center
 id center_horizontal
 id center_vertical
@@ -1058,6 +1062,7 @@ id line1
 id line3
 id listMode
 id list_item
+id listaCorrieri
 id masked
 id message
 id middle
@@ -1226,6 +1231,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout riga_corriere
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
