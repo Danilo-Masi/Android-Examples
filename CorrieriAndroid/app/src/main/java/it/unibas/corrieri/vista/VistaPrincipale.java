@@ -34,6 +34,8 @@ public class VistaPrincipale extends Fragment {
         this.listaCorrieri = vista.findViewById(R.id.listaCorrieri);
         //Aggiungiamo l'azione al bottone
         this.bottoneRicerca.setOnClickListener(Applicazione.getInstance().getControlloPrincipale().getAzioneRicerca());
+        //Aggiungiamo l'azione seleziona corriere al item selezionato
+        this.listaCorrieri.setOnItemClickListener(Applicazione.getInstance().getControlloPrincipale().getAzioneSelezionaCorriere());
         return vista;
     }
 

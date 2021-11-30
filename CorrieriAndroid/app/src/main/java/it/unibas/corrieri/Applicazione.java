@@ -5,6 +5,7 @@ import android.app.Application;
 import android.os.Bundle;
 import android.util.Log;
 
+import it.unibas.corrieri.controllo.ControlloDettaglioCorriere;
 import it.unibas.corrieri.controllo.ControlloPrincipale;
 import it.unibas.corrieri.modello.Modello;
 import it.unibas.corrieri.modello.ModelloPersistente;
@@ -37,6 +38,11 @@ public class Applicazione extends Application {
     private ModelloPersistente modelloPersistente = new ModelloPersistente();
     private ServerMock serverMock = new ServerMock();
     private ControlloPrincipale controlloPrincipale = new ControlloPrincipale();
+    private ControlloDettaglioCorriere controlloDettaglioCorriere = new ControlloDettaglioCorriere();
+
+    public ControlloDettaglioCorriere getControlloDettaglioCorriere() {
+        return controlloDettaglioCorriere;
+    }
 
     public ControlloPrincipale getControlloPrincipale() {
         return controlloPrincipale;

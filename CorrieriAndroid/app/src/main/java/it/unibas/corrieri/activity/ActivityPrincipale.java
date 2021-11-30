@@ -1,5 +1,6 @@
 package it.unibas.corrieri.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,4 +21,8 @@ public class ActivityPrincipale extends AppCompatActivity {
         return (VistaPrincipale) getSupportFragmentManager().findFragmentById(R.id.vistaPrincipale);
     }
 
+    public void mostraActivityDettaglioCorriere() {
+        Intent intent = new Intent(this, ActivityDettaglioCorriere.class);
+        this.startActivity(intent);
+    }
 }
