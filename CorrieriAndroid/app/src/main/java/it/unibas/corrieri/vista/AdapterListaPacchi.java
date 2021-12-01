@@ -48,14 +48,14 @@ public class AdapterListaPacchi extends BaseAdapter {
             riga = converterView;
         }else  {
             LayoutInflater layoutInflater = (LayoutInflater) Applicazione.getInstance().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            riga = layoutInflater.inflate(R.layout.riga_corriere, parent, false);
+            riga = layoutInflater.inflate(R.layout.riga_pacco, parent, false);
         }
         Pacco pacco = this.listaPacchi.get(position);
         TextView campoData = riga.findViewById(R.id.campoData);
         DateFormat df = SimpleDateFormat.getDateInstance(DateFormat.SHORT);
-        campoData.setText(df.format(pacco.getDataSpedizione().getTime()));
+        campoData.setText("Data: " + df.format(pacco.getDataSpedizione().getTime()));
         TextView campoPeso = riga.findViewById(R.id.campoPeso);
-        campoPeso.setText(pacco.getPeso() + "Kg");
+        campoPeso.setText("Peso " + pacco.getPeso() + " kg");
         TextView campoUrgente = riga.findViewById(R.id.campoUrgente);
         if(pacco.isUrgente()) {
             campoUrgente.setText(" Urgente ");

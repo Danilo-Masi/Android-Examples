@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4bcf2eceb08199f7c727c07aab682f4b\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\7c94e2d721b14cc0f7c84f17a0aff860\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\fd1328430e5c3ce6c4c485baf1d0990c\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -34,25 +34,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\danil\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\1e517e060e22e5750a896c56d451ab07\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\8909bb9e572b85a1aed6ea82735a7b78\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\2541981a540b257b4ca2e11e0b5e803f\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4bcf2eceb08199f7c727c07aab682f4b\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4bcf2eceb08199f7c727c07aab682f4b\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.core:core:1.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4cfe0911440d16ca6e1ca90c791c61c2\core-1.0.0\AndroidManifest.xml:22:5-89
@@ -91,6 +91,10 @@ activity#it.unibas.corrieri.activity.ActivityDettaglioCorriere
 ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:20:9-72
 	android:name
 		ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:20:19-69
+activity#it.unibas.corrieri.activity.ActivityNuovoPacco
+ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:21:9-65
+	android:name
+		ADDED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml:21:19-62
 uses-sdk
 INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\danil\OneDrive\Desktop\Applicazioni android\Android-Examples\CorrieriAndroid\app\src\main\AndroidManifest.xml

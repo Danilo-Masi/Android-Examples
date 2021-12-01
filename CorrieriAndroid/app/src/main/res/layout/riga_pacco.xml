@@ -14,18 +14,21 @@
             android:id="@+id/campoData"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="TextView" />
 
         <TextView
             android:id="@+id/campoPeso"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="TextView" />
 
         <TextView
             android:id="@+id/campoUrgente"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="TextView" />
     </LinearLayout>
 
@@ -38,12 +41,14 @@
             android:id="@+id/campoMittente"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="TextView" />
 
         <TextView
             android:id="@+id/campoDestinatario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="TextView" />
     </LinearLayout>
 </LinearLayout>

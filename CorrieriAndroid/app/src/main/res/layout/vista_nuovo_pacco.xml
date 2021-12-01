@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/labelData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data della spedizione" />
+
+        <CalendarView
+            android:id="@+id/campoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/campoMittente"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/bottoneSelezionaMittente"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:text="Seleziona mittente" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/campoDestinatario"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/bottoneSelezionaDestinatario"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:text="Seleziona destinatario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Peso" />
+
+            <EditText
+                android:id="@+id/campoPeso"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBoxUrgente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Urgente" />
+
+        <Button
+            android:id="@+id/bottoneNuovoPacco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salva pacco" />
+
+    </LinearLayout>
+</ScrollView>
