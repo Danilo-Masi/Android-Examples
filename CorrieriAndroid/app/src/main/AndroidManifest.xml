@@ -19,6 +19,7 @@
 
         <activity android:name=".activity.ActivityDettaglioCorriere" />
         <activity android:name=".activity.ActivityNuovoPacco" />
+        <activity android:name=".activity.ActivitySelezionaUtente" />
 
     </application>
 

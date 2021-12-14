@@ -1007,7 +1007,7 @@ id bottoneRicerca
 id bottoneSelezionaDestinatario
 id bottoneSelezionaMittente
 id buttonPanel
-id campoCorriere
+id campo
 id campoData
 id campoDestinatario
 id campoMittente
@@ -1030,6 +1030,7 @@ id container
 id containerVistaDettaglioCorriere
 id containerVistaNuovoPacco
 id containerVistaPrincipale
+id containerVistaSelezionaUtente
 id content
 id contentPanel
 id coordinator
@@ -1076,7 +1077,7 @@ id line3
 id listMode
 id list_item
 id listaCorrieri
-id listaPacchi
+id listaUtenti
 id masked
 id message
 id middle
@@ -1176,6 +1177,7 @@ id visible
 id vistaDettaglioCorriere
 id vistaNuovoPacco
 id vistaPrincipale
+id vistaSelezionaUtente
 id withText
 id wrap_content
 integer abc_config_activityDefaultDur
@@ -1228,6 +1230,7 @@ layout abc_tooltip
 layout activity_dettaglio_corriere
 layout activity_nuovo_pacco
 layout activity_principale
+layout activity_seleziona_utente
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1259,6 +1262,7 @@ layout support_simple_spinner_dropdown_item
 layout vista_dettaglio_corriere
 layout vista_nuovo_pacco
 layout vista_principale
+layout vista_seleziona_utente
 mipmap ic_launcher
 string abc_action_bar_home_description
 string abc_action_bar_up_description

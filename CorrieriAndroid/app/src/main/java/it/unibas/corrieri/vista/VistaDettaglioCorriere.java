@@ -24,9 +24,10 @@ public class VistaDettaglioCorriere extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View vista = inflater.inflate(R.layout.vista_dettaglio_corriere, container, false);
-        this.listaPacchi = vista.findViewById(R.id.listaPacchi);
-        this.campoCorriere = vista.findViewById(R.id.campoCorriere);
+        this.listaPacchi = vista.findViewById(R.id.listaUtenti);
+        this.campoCorriere = vista.findViewById(R.id.campo);
         this.bottoneNuovoPacco = vista.findViewById(R.id.bottoneNuovoPacco);
+        this.bottoneNuovoPacco.setOnClickListener(Applicazione.getInstance().getControlloDettaglioCorriere().getAzioneNuovoPacco());
         aggiornaDati();
         return vista;
     }

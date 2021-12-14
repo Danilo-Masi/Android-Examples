@@ -14,6 +14,7 @@ import androidx.fragment.app.Fragment;
 
 import java.util.Date;
 
+import it.unibas.corrieri.Applicazione;
 import it.unibas.corrieri.R;
 
 public class VistaNuovoPacco extends Fragment {
@@ -38,6 +39,8 @@ public class VistaNuovoPacco extends Fragment {
         this.bottoneSelezionaDestinatario = vista.findViewById(R.id.bottoneSelezionaDestinatario);
         this.bottoneNuovoPacco = vista.findViewById(R.id.bottoneNuovoPacco);
         this.checkBoxUrgente = vista.findViewById(R.id.checkBoxUrgente);
+        this.bottoneSelezionaMittente.setOnClickListener(Applicazione.getInstance().getControlloNuovoPacco().getAzioneSelezionaMittente());
+        this.bottoneSelezionaDestinatario.setOnClickListener(Applicazione.getInstance().getControlloNuovoPacco().getAzioneSelezionaDestinatario());
         return vista;
     }
 

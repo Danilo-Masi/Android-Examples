@@ -1,5 +1,6 @@
 package it.unibas.corrieri.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,5 +20,10 @@ public class ActivityNuovoPacco extends AppCompatActivity {
 
     public VistaNuovoPacco getVistaNuovoPacco() {
         return (VistaNuovoPacco) getSupportFragmentManager().findFragmentById(R.id.vistaNuovoPacco);
+    }
+
+    public void mostraActivitySelzionaUtente() {
+        Intent intent = new Intent(this, ActivitySelezionaUtente.class);
+        this.startActivity(intent);
     }
 }

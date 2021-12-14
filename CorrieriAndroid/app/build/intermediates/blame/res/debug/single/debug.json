@@ -44,12 +44,20 @@
         "source": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CorrieriAndroid\\app\\src\\main\\res\\layout\\riga_corriere.xml"
     },
     {
+        "merged": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CorrieriAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_seleziona_utente.xml.flat",
+        "source": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CorrieriAndroid\\app\\src\\main\\res\\layout\\activity_seleziona_utente.xml"
+    },
+    {
         "merged": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CorrieriAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_riga_pacco.xml.flat",
         "source": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CorrieriAndroid\\app\\src\\main\\res\\layout\\riga_pacco.xml"
     },
     {
         "merged": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CorrieriAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_vista_principale.xml.flat",
         "source": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CorrieriAndroid\\app\\src\\main\\res\\layout\\vista_principale.xml"
+    },
+    {
+        "merged": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CorrieriAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_vista_seleziona_utente.xml.flat",
+        "source": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CorrieriAndroid\\app\\src\\main\\res\\layout\\vista_seleziona_utente.xml"
     },
     {
         "merged": "C:\\Users\\danil\\OneDrive\\Desktop\\Applicazioni android\\Android-Examples\\CorrieriAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dettaglio_corriere.xml.flat",
