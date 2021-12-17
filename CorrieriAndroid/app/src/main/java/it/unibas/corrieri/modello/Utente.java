@@ -72,4 +72,9 @@ public class Utente {
     public void aggiungiPaccoInviato(Pacco pacco) {
         this.pacchiInviati.add(pacco);
     }
+
+    @Override
+    public String toString() {
+        return nome + " " + cognome;
+    }
 }

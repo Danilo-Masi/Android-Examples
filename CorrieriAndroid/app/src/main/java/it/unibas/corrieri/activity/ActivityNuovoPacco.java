@@ -2,6 +2,7 @@ package it.unibas.corrieri.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,5 +26,9 @@ public class ActivityNuovoPacco extends AppCompatActivity {
     public void mostraActivitySelzionaUtente() {
         Intent intent = new Intent(this, ActivitySelezionaUtente.class);
         this.startActivity(intent);
+    }
+
+    public void mostraFinestraErrori(String errori) {
+        Toast.makeText(this, errori,Toast.LENGTH_LONG).show();
     }
 }

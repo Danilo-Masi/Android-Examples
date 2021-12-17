@@ -15,7 +15,9 @@ import androidx.fragment.app.Fragment;
 import java.util.Date;
 
 import it.unibas.corrieri.Applicazione;
+import it.unibas.corrieri.Costanti;
 import it.unibas.corrieri.R;
+import it.unibas.corrieri.modello.Utente;
 
 public class VistaNuovoPacco extends Fragment {
 
@@ -41,7 +43,26 @@ public class VistaNuovoPacco extends Fragment {
         this.checkBoxUrgente = vista.findViewById(R.id.checkBoxUrgente);
         this.bottoneSelezionaMittente.setOnClickListener(Applicazione.getInstance().getControlloNuovoPacco().getAzioneSelezionaMittente());
         this.bottoneSelezionaDestinatario.setOnClickListener(Applicazione.getInstance().getControlloNuovoPacco().getAzioneSelezionaDestinatario());
+        //Prendiamo la data
+        this.campoData.setOnDateChangeListener(Applicazione.getInstance().getControlloNuovoPacco().getAzioneSelezionaData());
         return vista;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        Utente mittenteSelezionato = (Utente) Applicazione.getInstance().getModello().getBean(Costanti.MITTENTE_SELEZIONATO);
+        if(mittenteSelezionato == null) {
+            campoMittente.setText("Nessun mittente");
+        }else {
+            campoMittente.setText(mittenteSelezionato.toString());
+        }
+        Utente destinatarioSelezionato = (Utente) Applicazione.getInstance().getModello().getBean(Costanti.DESTINATARIO_SELEZIONATO);
+        if(destinatarioSelezionato == null) {
+            campoMittente.setText("Nessun destinatario");
+        }else {
+            campoMittente.setText(destinatarioSelezionato.toString());
+        }
     }
 
     public  boolean isUrgente() {

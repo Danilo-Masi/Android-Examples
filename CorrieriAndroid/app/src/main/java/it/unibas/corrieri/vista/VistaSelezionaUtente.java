@@ -8,7 +8,12 @@ import android.widget.ListView;
 
 import androidx.fragment.app.Fragment;
 
+import java.util.List;
+
+import it.unibas.corrieri.Applicazione;
+import it.unibas.corrieri.Costanti;
 import it.unibas.corrieri.R;
+import it.unibas.corrieri.modello.Utente;
 
 public class VistaSelezionaUtente extends Fragment {
 
@@ -18,6 +23,14 @@ public class VistaSelezionaUtente extends Fragment {
     public View onCreateView( LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View vista = inflater.inflate(R.layout.vista_seleziona_utente, container,false);
         this.listaUtenti = vista.findViewById(R.id.listaUtenti);
+        this.listaUtenti.setOnItemClickListener(Applicazione.getInstance().getControlloSelezionaUtente().getSelezionaUtente());
+        aggiornaDati();
         return vista;
+    }
+
+    private void aggiornaDati() {
+        List<Utente> utenti = (List<Utente>) Applicazione.getInstance().getModello().getBean(Costanti.LISTA_UTENTI);
+        AdapterListaUtenti adapterListaUtenti = new AdapterListaUtenti(utenti);
+        listaUtenti.setAdapter(adapterListaUtenti);
     }
 }

@@ -32,6 +32,11 @@ public class VistaDettaglioCorriere extends Fragment {
         return vista;
     }
 
+    public void onResume() {
+        super.onResume();
+        aggiornaDati();
+    }
+
     private void aggiornaDati() {
         Corriere corriere = (Corriere) Applicazione.getInstance().getModello().getBean(Costanti.CORRIERE_SELEZIONATO);
         AdapterListaPacchi adapterListaPacchi = new AdapterListaPacchi(corriere.getPacchi());

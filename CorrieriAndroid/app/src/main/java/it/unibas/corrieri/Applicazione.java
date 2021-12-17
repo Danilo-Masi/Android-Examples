@@ -8,6 +8,7 @@ import android.util.Log;
 import it.unibas.corrieri.controllo.ControlloDettaglioCorriere;
 import it.unibas.corrieri.controllo.ControlloNuovoPacco;
 import it.unibas.corrieri.controllo.ControlloPrincipale;
+import it.unibas.corrieri.controllo.ControlloSelezionaUtente;
 import it.unibas.corrieri.modello.Modello;
 import it.unibas.corrieri.modello.ModelloPersistente;
 import it.unibas.corrieri.persistenza.ServerMock;
@@ -41,6 +42,11 @@ public class Applicazione extends Application {
     private ControlloPrincipale controlloPrincipale = new ControlloPrincipale();
     private ControlloDettaglioCorriere controlloDettaglioCorriere = new ControlloDettaglioCorriere();
     private ControlloNuovoPacco controlloNuovoPacco = new ControlloNuovoPacco();
+    private ControlloSelezionaUtente controlloSelezionaUtente = new ControlloSelezionaUtente();
+
+    public ControlloSelezionaUtente getControlloSelezionaUtente() {
+        return controlloSelezionaUtente;
+    }
 
     public ControlloNuovoPacco getControlloNuovoPacco() {
         return controlloNuovoPacco;
