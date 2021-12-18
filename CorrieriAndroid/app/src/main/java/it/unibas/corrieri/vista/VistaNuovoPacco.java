@@ -32,19 +32,22 @@ public class VistaNuovoPacco extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        //Chiamiamo il file xml legato alla vista corrente
         View vista = inflater.inflate(R.layout.vista_nuovo_pacco, container, false);
+        //Richiamiamo i campi che ci servono
         this.campoData = vista.findViewById(R.id.campoData);
         this.campoMittente = vista.findViewById(R.id.campoMittente);
         this.campoDestinatario = vista.findViewById(R.id.campoDestinatario);
-        this.campoPeso = vista.findViewById(R.id.campoPeso);
         this.bottoneSelezionaMittente = vista.findViewById(R.id.bottoneSelezionaMittente);
         this.bottoneSelezionaDestinatario = vista.findViewById(R.id.bottoneSelezionaDestinatario);
-        this.bottoneNuovoPacco = vista.findViewById(R.id.bottoneNuovoPacco);
+        this.campoPeso = vista.findViewById(R.id.campoPeso);
         this.checkBoxUrgente = vista.findViewById(R.id.checkBoxUrgente);
+        this.bottoneNuovoPacco = vista.findViewById(R.id.bottoneNuovoPacco);
+        //Inizializziamo le azioni
+        this.campoData.setOnDateChangeListener(Applicazione.getInstance().getControlloNuovoPacco().getAzioneSelezionaData());
         this.bottoneSelezionaMittente.setOnClickListener(Applicazione.getInstance().getControlloNuovoPacco().getAzioneSelezionaMittente());
         this.bottoneSelezionaDestinatario.setOnClickListener(Applicazione.getInstance().getControlloNuovoPacco().getAzioneSelezionaDestinatario());
-        //Prendiamo la data
-        this.campoData.setOnDateChangeListener(Applicazione.getInstance().getControlloNuovoPacco().getAzioneSelezionaData());
+        this.bottoneNuovoPacco.setOnClickListener(Applicazione.getInstance().getControlloNuovoPacco().getAzioneNuovoPacco());
         return vista;
     }
 
@@ -59,9 +62,9 @@ public class VistaNuovoPacco extends Fragment {
         }
         Utente destinatarioSelezionato = (Utente) Applicazione.getInstance().getModello().getBean(Costanti.DESTINATARIO_SELEZIONATO);
         if(destinatarioSelezionato == null) {
-            campoMittente.setText("Nessun destinatario");
+            campoDestinatario.setText("Nessun destinatario");
         }else {
-            campoMittente.setText(destinatarioSelezionato.toString());
+            campoDestinatario.setText(destinatarioSelezionato.toString());
         }
     }
 

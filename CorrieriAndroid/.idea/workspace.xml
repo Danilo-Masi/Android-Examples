@@ -39,49 +39,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/out/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/Applicazione$GestoreAttivita.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/Applicazione$GestoreAttivita.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/Applicazione.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/Applicazione.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/Costanti.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/Costanti.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/activity/ActivityNuovoPacco.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/activity/ActivityNuovoPacco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/controllo/ControlloDettaglioCorriere$AzioneNuovoPacco.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/controllo/ControlloDettaglioCorriere$AzioneNuovoPacco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/controllo/ControlloDettaglioCorriere.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/controllo/ControlloDettaglioCorriere.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/controllo/ControlloNuovoPacco$AzioneSelezionaUtente.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/controllo/ControlloNuovoPacco$AzioneSelezionaUtente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/controllo/ControlloNuovoPacco.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/controllo/ControlloNuovoPacco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/modello/Utente.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/modello/Utente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/vista/AdapterListaPacchi.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/vista/AdapterListaPacchi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/vista/VistaDettaglioCorriere.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/vista/VistaDettaglioCorriere.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/vista/VistaNuovoPacco.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/vista/VistaNuovoPacco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/vista/VistaSelezionaUtente.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/it/unibas/corrieri/vista/VistaSelezionaUtente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/Applicazione$GestoreAttivita.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/Applicazione$GestoreAttivita.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/Applicazione.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/Applicazione.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/Costanti.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/Costanti.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/activity/ActivityNuovoPacco.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/activity/ActivityNuovoPacco.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/controllo/ControlloDettaglioCorriere$AzioneNuovoPacco.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/controllo/ControlloDettaglioCorriere$AzioneNuovoPacco.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/controllo/ControlloDettaglioCorriere.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/controllo/ControlloDettaglioCorriere.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/controllo/ControlloNuovoPacco$AzioneSelezionaUtente.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/controllo/ControlloNuovoPacco$AzioneSelezionaUtente.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/controllo/ControlloNuovoPacco.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/controllo/ControlloNuovoPacco.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/modello/Utente.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/modello/Utente.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/vista/AdapterListaPacchi.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/vista/AdapterListaPacchi.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/vista/VistaNuovoPacco.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/vista/VistaNuovoPacco.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/vista/VistaSelezionaUtente.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/it/unibas/corrieri/vista/VistaSelezionaUtente.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/Applicazione.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/Applicazione.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/Costanti.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/Costanti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/activity/ActivityNuovoPacco.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/activity/ActivityNuovoPacco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/controllo/ControlloDettaglioCorriere.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/controllo/ControlloDettaglioCorriere.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/controllo/ControlloNuovoPacco.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/controllo/ControlloNuovoPacco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/modello/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/modello/Utente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/vista/VistaDettaglioCorriere.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/vista/VistaDettaglioCorriere.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/vista/VistaNuovoPacco.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/vista/VistaNuovoPacco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/vista/VistaSelezionaUtente.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/it/unibas/corrieri/vista/VistaSelezionaUtente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +89,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@C:\Users\danil\.android\avd\Pixel_2_API_27.avd" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-11-15T15:07:24.453092100Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CalcoloISEEAndroid" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
@@ -250,10 +218,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1639752839834">
+    <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1639823920668">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/-1920.76.1920.1032@0.0.1920.1032" timestamp="1639752839834" />
+    <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/-1920.76.1920.1032@0.0.1920.1032" timestamp="1639823920668" />
     <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1638379684792" />
     <state x="369" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1638296524628">
       <screen x="0" y="0" width="1920" height="1032" />
@@ -275,30 +243,30 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="804" y="306" key="AndroidCreateXmlResourceDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1638375736431" />
-    <state x="740" y="271" key="FileChooserDialogImpl" timestamp="1639490956889">
+    <state x="740" y="271" key="FileChooserDialogImpl" timestamp="1639824971044">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032/-1920.76.1920.1032@0.0.1920.1032" timestamp="1639490956889" />
+    <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032/-1920.76.1920.1032@0.0.1920.1032" timestamp="1639824971044" />
     <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1638207978574" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1639753990445">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1639824240777">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.76.1920.1032@0.0.1920.1032" timestamp="1639753990445" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1032/-1920.76.1920.1032@0.0.1920.1032" timestamp="1639824240777" />
     <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1638379086056" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1639753990445">
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1639824240777">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.76.1920.1032@0.0.1920.1032" timestamp="1639753990445" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1032/-1920.76.1920.1032@0.0.1920.1032" timestamp="1639824240777" />
     <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1638379086055" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1639753990445">
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1639824240776">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.76.1920.1032@0.0.1920.1032" timestamp="1639753990445" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1032/-1920.76.1920.1032@0.0.1920.1032" timestamp="1639824240776" />
     <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1638379086055" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1639753990445">
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1639824240777">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.76.1920.1032@0.0.1920.1032" timestamp="1639753990445" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1032/-1920.76.1920.1032@0.0.1920.1032" timestamp="1639824240777" />
     <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1638379086056" />
     <state x="461" y="161" key="SettingsEditor" timestamp="1636989902121">
       <screen x="0" y="0" width="1920" height="1032" />

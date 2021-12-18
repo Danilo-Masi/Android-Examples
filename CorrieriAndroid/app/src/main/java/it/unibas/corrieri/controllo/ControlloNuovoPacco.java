@@ -23,7 +23,6 @@ public class ControlloNuovoPacco {
     private View.OnClickListener azioneNuovoPacco = new AzioneNuovoPacco();
     private CalendarView.OnDateChangeListener azioneSelezionaData = new AzioneSelezionaData();
 
-
     public CalendarView.OnDateChangeListener getAzioneSelezionaData() {
         return azioneSelezionaData;
     }
@@ -40,20 +39,9 @@ public class ControlloNuovoPacco {
         return azioneSelezionaDestinatario;
     }
 
-    private class AzioneSelezionaData implements CalendarView.OnDateChangeListener {
-
-        @Override
-        public void onSelectedDayChange(CalendarView calendarView, int anno, int mese, int giorno) {
-            Calendar calendar = new GregorianCalendar(anno,mese, giorno);
-            Applicazione.getInstance().getModello().putBean(Costanti.DATA_SELEZIONATA, calendar);
-        }
-    }
-
-
+    //AzioneNuovoPacco
     private class AzioneNuovoPacco implements View.OnClickListener {
-
         private OperatorePacchi operatorePacchi = new OperatorePacchi();
-
         @Override
         public void onClick(View view) {
             ActivityNuovoPacco activityNuovoPacco = (ActivityNuovoPacco) Applicazione.getInstance().getCurrentActivity();
@@ -103,17 +91,23 @@ public class ControlloNuovoPacco {
             }
             return errori.toString();
         }
-
     }
 
+    //AzioneSelezionaData
+    private class AzioneSelezionaData implements CalendarView.OnDateChangeListener {
+        @Override
+        public void onSelectedDayChange(CalendarView calendarView, int anno, int mese, int giorno) {
+            Calendar calendar = new GregorianCalendar(anno,mese, giorno);
+            Applicazione.getInstance().getModello().putBean(Costanti.DATA_SELEZIONATA, calendar);
+        }
+    }
+
+    //AzioneSelezionaUtente
     private class AzioneSelezionaUtente implements View.OnClickListener {
-
         private String tipoSelezione;
-
         public AzioneSelezionaUtente(String tipoSelezione) {
             this.tipoSelezione = tipoSelezione;
         }
-
         @Override
         public void onClick(View view) {
             List<Utente> listaUtenti = Applicazione.getInstance().getServerMock().findAllUtenti();
